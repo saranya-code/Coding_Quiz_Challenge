@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz challenge</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+          <header id="header" >
+            <button id= "highscorebtn">HighScore</button>
+
+            <div class="time">Time:  <span id="time"></span></div>
+
+          </header>
+
+            <div class="container" id = "container">
+                <h1>Coding Quiz challenge</h1> <br>
+                <h2>This quiz will test your knowledge of various coding and web design concepts </h2>
+                <button id="startbtn">Start Quiz</button>
+               
+            </div>
+        
+            <section id="question">
+                <h2 id= "questionType"></h2>
+                    <button id ="choice1"></button>
+                    <button id ="choice2"></button>
+                    <button id ="choice3"></button>
+                    <button id ="choice4"></button>
+            
+                    <div  id="answerStatus"> </div>
+            </section>
+
+            <div id="score" class="center-align">
+                <h1 > Game Over</h1>
+                <div class="score">Your Score:  <span id="showScore"></span></div>
+                <span> Enter your initials : </span>
+                <input id="initials" type="text" name="initials" placeholder="Enter your initials" />
+                <button id="submit">SUBMIT</button>
+            </div>
+
+            <div id="highscore">
+                <h3>Highscore </h3>
+                <ul id ="getInput">
+                    
+                </ul>
+                <button id="goback">Go Back</button>
+                <button id="clearScore">Clear Highscore</button>
+                
+            </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
