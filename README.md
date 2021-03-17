@@ -29,9 +29,14 @@
 
 # Resource links:
 
-* Github repository URL :  
+* Github repository URL :  https://github.com/saranya-code/Coding_Quiz_Challenge
 
-* Deployment URL : 
+* Deployment URL : https://saranya-code.github.io/Coding_Quiz_Challenge/
 
 * Screenshot :
-   
+   ![Webpage Screenshot](./images/1.png?raw=true)
+    ![Webpage Screenshot](./images/3.png?raw=true)
+    ![Webpage Screenshot](./images/4.png?raw=true)
+    ![Webpage Screenshot](./images/5.png?raw=true)
+    ![Webpage Screenshot](./images/6.png?raw=true)
+    ![Webpage Screenshot](./images/7.png?raw=true)
