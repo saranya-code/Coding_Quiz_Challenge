@@ -34,7 +34,9 @@ highscoreEl.style.display ="none";
 
 startbtnEl.addEventListener("click", function(){
     questionEl.style.display = "block";       //After click on startquiz button Question1 appears here
-    containerEl.style.display = "none";       //Start quiz page disappers
+    containerEl.style.display = "none";  
+         //Start quiz page disappers
+         timer=50;
     setTime();
     readQuestion()
 })
