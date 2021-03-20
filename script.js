@@ -37,6 +37,8 @@ startbtnEl.addEventListener("click", function(){
     containerEl.style.display = "none";  
          //Start quiz page disappers
          timer=50;
+         questionIndex=0
+         timeEl.textContent = timer;
     setTime();
     readQuestion()
 })
